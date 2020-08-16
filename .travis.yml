@@ -1,6 +1,6 @@
 language: nodejs
 before_script:
-  -npm install
+  npm install
 
 script:
-  -npm test
+  npm test
