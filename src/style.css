@@ -1,0 +1,82 @@
+.logo{
+    float:left;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+.save{
+    float:left;
+    position: absolute;
+    left:40%;
+    top:10px;
+}
+.rate{
+    float:left;
+    position: absolute;
+    left:50%;
+    top:10px;
+}
+.user{
+    float: right;
+    
+   
+   margin: 10px;
+}
+.divider{
+    background-color: gray;
+}
+.datePicker{
+    margin-top: 10px;
+}
+.field{
+    float:left;
+    position: absolute;
+    
+    margin-top: 10px;
+}
+.operator{
+    float:left;
+    position: absolute;
+    margin-top: 10px;
+    left: 200px;
+}
+.valuee{
+    float:left;
+    position: absolute;
+    margin-top: 10px;
+    left: 400px;
+    
+}
+.bodyy{
+
+    width: 300px;
+	height: 350px;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+}
+.buttonn{
+    float:left;
+    position: absolute;
+    left: 170px;
+    top:20px
+}
+.conditon{
+    width: 700px;
+    height: 100px;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 35%;
+}
+.addInput{
+    width: 300;
+    height: 500;
+    float: left;
+    position: absolute;
+    left:35%;
+    background-color: aqua;
+}
