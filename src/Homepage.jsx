@@ -30,7 +30,7 @@ export default class Homepage extends React.Component {
     searchsome = (value, e) => {
         let _this = this
         let list = []
-        axios.get('http://localhost:3001').then(function (response) {
+        axios.get('http://ense.herokuapp.com').then(function (response) {
 
             const data = response.data
 

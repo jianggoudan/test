@@ -32,14 +32,14 @@ export default class Admin extends React.Component {
         
        
        let _this=this
-        axios.post('http://localhost:3001/dele', {
+        axios.post('http://ense.herokuapp.com/dele', {
             Fields:this.state.bookList[index].Fields
 
         }).then(function (response) {
            
                 if(response.data==='yes')
                 {   
-                    axios.get('http://localhost:3001/admin')
+                    axios.get('http://ense.herokuapp.com/admin')
             .then(function (response) {
                 _this.setState({
                     bookList: response.data

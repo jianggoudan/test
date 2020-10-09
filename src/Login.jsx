@@ -46,7 +46,7 @@ export default class Login extends React.Component {
         const history = this.props.history;
         let _this = this
         
-        axios.post('http://localhost:3001/user', {
+        axios.post('http://ense.herokuapp.com', {
             username: this.state.inputName,
             password: this.state.inputPsw
         })

@@ -41,7 +41,7 @@ export default class Signup extends React.Component {
         let _this=this
         const history = this.props.history;
        
-       axios.post('http://localhost:3001/register',{
+       axios.post('http://ense.herokuapp.com/register',{
            username:this.state.singuser,
            password:this.state.singpsw
        }).then(function (response) {

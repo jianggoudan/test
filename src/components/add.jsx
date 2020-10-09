@@ -51,7 +51,7 @@ export default class Add extends React.Component {
         let _this = this
         const history = this.props.history;
 
-        axios.post('http://localhost:3001/add', {
+        axios.post('http://ense.herokuapp.com/add', {
             year: this.state.year,
             title: this.state.title,
             author: this.state.author,
